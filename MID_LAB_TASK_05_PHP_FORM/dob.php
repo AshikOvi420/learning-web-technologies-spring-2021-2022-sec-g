@@ -3,10 +3,10 @@
 $email="";
 $error="";
 if(isset($_REQUEST['submit'])){
-	if(_REQUEST['mail']==null){
-    	$error="Invalid email!";
+	if(_REQUEST['dob']==null){
+    	$error="Invalid dob";
 	}
-	else{$email=$_REQUEST['mail'];}
+	else{$email=$_REQUEST['dob'];}
 }
 
 ?>

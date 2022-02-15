@@ -3,10 +3,10 @@
 $email="";
 $error="";
 if(isset($_REQUEST['submit'])){
-	if(_REQUEST['mail']==null){
-    	$error="Invalid email!";
+	if(_REQUEST['degree']==null){
+    	$error="Invalid degree!";
 	}
-	else{$email=$_REQUEST['mail'];}
+	else{$email=$_REQUEST['degree'];}
 }
 
 ?>
@@ -16,7 +16,7 @@ if(isset($_REQUEST['submit'])){
 	<title></title>
 </head>
 <body>
-	<form method="POST" action="email.php">
+	<form method="POST" action="degree.php">
 
 	  
 	  	<fieldset>
