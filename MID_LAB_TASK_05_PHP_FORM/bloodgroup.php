@@ -1,12 +1,12 @@
 <?php
 
-$email="";
+$bloodgroup="";
 $error="";
 if(isset($_REQUEST['submit'])){
 	if(_REQUEST['bloodgroup']==null){
     	$error="Invalid bloodgroup!";
 	}
-	else{$email=$_REQUEST['bloodgroup'];}
+	else{$bloodgroup=$_REQUEST['bloodgroup'];}
 }
 
 ?>

@@ -1,12 +1,12 @@
 <?php
 
-$email="";
+$gender="";
 $error="";
 if(isset($_REQUEST['submit'])){
 	if(_REQUEST['gender']==null){
     	$error="Invalid gender!";
 	}
-	else{$email=$_REQUEST['gender'];}
+	else{$gender=$_REQUEST['gender'];}
 }
 
 ?>

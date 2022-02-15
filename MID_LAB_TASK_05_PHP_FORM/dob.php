@@ -1,12 +1,12 @@
 <?php
 
-$email="";
+$dob="";
 $error="";
 if(isset($_REQUEST['submit'])){
 	if(_REQUEST['dob']==null){
     	$error="Invalid dob";
 	}
-	else{$email=$_REQUEST['dob'];}
+	else{$dob=$_REQUEST['dob'];}
 }
 
 ?>

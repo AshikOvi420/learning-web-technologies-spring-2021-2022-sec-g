@@ -1,12 +1,12 @@
 <?php
 
-$email="";
+$degree="";
 $error="";
 if(isset($_REQUEST['submit'])){
 	if(_REQUEST['degree']==null){
     	$error="Invalid degree!";
 	}
-	else{$email=$_REQUEST['degree'];}
+	else{$degree=$_REQUEST['degree'];}
 }
 
 ?>
