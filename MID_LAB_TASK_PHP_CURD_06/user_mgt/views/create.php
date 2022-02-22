@@ -1,3 +1,7 @@
+<?php 
+	require('header.php');
+?>
+
 <html>
 <head>
 	<title>Create New User Page</title>
